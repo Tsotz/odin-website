@@ -9,20 +9,14 @@ body {
 
 }
 
-.container {
-
-    width: 100%;
-    max-width: 1200px;
-    margin:0 auto;
-
-}
 
 .header {
     background-color:#1F2937;
     display:flex;
     flex-direction:column;
-    width:100vw;
+    width:100%;
     padding:20px 0;
+    
 
 }
 
@@ -32,7 +26,9 @@ body {
     width:100%;
     max-width:1200px;
     padding:0 20px;
-    margin: auto;
+    margin:auto;
+    box-sizing:border-box;
+    
 
 }
 
@@ -58,5 +54,38 @@ body {
     display:flex;
     justify-content:space-between;
     align-items:center;
+    
+
+}
+
+
+
+
+
+.container-info {
+
+    display:flex;
+    flex-direction: column;
+    
+    
+
+
+}
+
+.img-info {
+
+    display: flex;
+
+
+}
+
+
+.top-bottom {
+
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    gap:16px;
+    
 
 }
